@@ -1,0 +1,106 @@
+/* Account.css */
+
+.account-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  align-items: center;
+  margin-top: 20px;
+  
+}
+.buttons{
+  display: flex;
+  flex-direction: row;
+  margin-left: 10px;
+  align-items: center;
+  margin-top: 20px;
+  box-shadow: 10px 10px rgb(188, 190, 190)
+}
+.create-account-button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+  width: 200px;
+  margin-inline: 30px;
+  margin-top: 20px;
+}
+
+.create-account-button:hover {
+  background-color: #349439;
+  transform: scale(1.05);
+}
+
+.recover-account-button:hover {
+  background-color: #349439;
+  transform: scale(1.05);
+}
+
+.success-message {
+  color: #4caf50;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.recover-account-button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 28px;
+  width: 200px;
+}
+
+.recover-account-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.seed-phrase-input {
+  margin-top: 10px;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.recover-button {
+  background-color: #2196f3;
+  color: white;
+  padding: 8px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+.recover-button:hover{
+  background-color: #285cbe;
+  transform: scale(1.05);
+}
+
+.try {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the items horizontally */
+  margin-top: 120px; /* Adjust the top margin as needed */
+}
+
+.try input {
+  margin-top: 10px;
+  height: 30px; 
+  width:500px;
+  /* Separate the input from the button */
+  margin-left: 50px;
+  
+}
